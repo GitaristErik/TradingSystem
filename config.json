@@ -1,0 +1,33 @@
+{
+    "_possible_modes": [
+        "run",
+        "fetchHistory",
+        "showHistory",
+        "backtest",
+        "optimize"
+    ],
+    "exchange": "ascendex",
+    "login": {
+        "apiKey": "phNMh0djaJ6jY8Ac6d9XuwLVmUjkUMvx",
+        "secret": "bWhcgmbuWEhScKWBcN8KwoE4TDvhiDyw8xMJRst9LZZyThA5eUHasNXttqxg8DQg"
+    },
+    "timeframe": "1d",
+    "tradingpair": "ETH/BTC",
+    "algorithmModule": "rsimacd",
+    "algorithmClassName": "Algorithm",
+    "history": "history-1d-ethbtc-1-1-17-25-1-21.csv",
+    "fee": 0.075,
+    "run": {
+        "amount": 0.01,
+        "test": true,
+        "telegram": {
+            "enabled": true,
+            "token": "5363432727:AAGdbL00gmr8pymsRbpHbrbOfD3iS46uQ-w",
+            "chatId": "1025650891"
+        }
+    },
+    "fetchHistory": {
+        "since": 1483228800,
+        "filename": "history.csv"
+    }
+}
